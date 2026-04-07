@@ -11,6 +11,16 @@ export function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
         <div className="col-span-1 md:col-span-2">
           <h2 className="text-2xl font-serif mb-6">
+            <a
+              href="#"
+              className="block hover:opacity-80 transition-opacity mb-2"
+            >
+              <img
+                src="/snake-logo.svg"
+                alt="Strike Fast Snake Removal"
+                className="h-10 md:h-12 w-auto"
+              />
+            </a>
             Strike Fast Snake Removal
           </h2>
           <p className="max-w-md text-neutral-500">

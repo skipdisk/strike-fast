@@ -52,7 +52,7 @@ export function Testimonials() {
 
           <div className="text-right mt-6 md:mt-0">
             <a
-              href="YOUR_GOOGLE_REVIEW_LINK_HERE"
+              href="https://www.google.com/search?sca_esv=a0464d9551b247bc&rlz=1C5CHFA_enUS1044US1044&sxsrf=ANbL-n7rY2JkSczI0HATaVam1CTsARKeFA:1775585427417&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOQJUDrBwJSKdG3QUPJVmF5jz3AZxRXlpxhm98xvkI_5vct76twEGZkmsBSikL1u4BZdE6tNqDQEQx1TgQYgRmzxzf_A7QextRJG8ASIQ-G5FF55vXw%3D%3D&q=Strike+Fast+Snake+Removal+Reviews&sa=X&ved=2ahUKEwjGoK2Vq9yTAxVxnSYFHWcxFFYQ0bkNegQIRBAF&biw=3440&bih=1328&dpr=1#"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block border border-white/20 px-6 py-3 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all"
