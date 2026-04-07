@@ -1,7 +1,7 @@
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Services } from "./components/Services";
-import { Barbers } from "./components/Barbers";
+import { Testimonials } from "./components/Testimonials";
 import { Philosophy } from "./components/Philosophy";
 import { Gallery } from "./components/Gallery";
 import { Footer } from "./components/Footer";
@@ -15,7 +15,7 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <Services />
-        <Barbers />
+        <Testimonials />
         <Philosophy />
         <Gallery />
       </main>

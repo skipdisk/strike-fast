@@ -12,18 +12,18 @@ interface CollageProps {
 
 const initialImages = [
   {
-    src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Barber",
+    src: "https://images.unsplash.com/photo-1715552763038-4aa65c610ad7?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=800&auto=format&fit=crop",
+    alt: "Snake in Grass",
     id: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=500&auto=format&fit=crop",
-    alt: "Chair",
+    src: "https://images.unsplash.com/photo-1675911584988-2c201e37088d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=800&auto=format&fit=crop",
+    alt: "House Exterior",
     id: 2,
   },
   {
-    src: "https://images.unsplash.com/photo-1621645582931-d1d3e6564943?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Tools",
+    src: "https://images.unsplash.com/photo-1590062363712-8163a4325fe2?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=916&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=800&auto=format&fit=crop",
+    alt: "Outdoors",
     id: 3,
   },
 ];

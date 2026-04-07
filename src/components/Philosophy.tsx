@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const stats = [
   { label: "Rating", value: 5.0, suffix: "" }, // Treated specially for decimal
-  { label: "Years Exp", value: 20, suffix: "+" },
-  { label: "Clients", value: 1000, suffix: "+" },
-  { label: "Satisfaction", value: 100, suffix: "%" },
+  { label: "Years Exp", value: 10, suffix: "+" },
+  { label: "Rescues", value: 500, suffix: "+" },
+  { label: "Safe Removals", value: 100, suffix: "%" },
 ];
 
 export function Philosophy() {
@@ -25,15 +25,10 @@ export function Philosophy() {
           Our Philosophy
         </h2>
         <h3 className="text-4xl md:text-5xl font-serif leading-tight mb-8">
-          "A return to the classic barbershop experience, where the craft is
-          respected and the conversation is genuine."
+          "Expert wildlife management combined with a commitment to safety, education, and humane practices."
         </h3>
         <p className="text-neutral-400 text-lg leading-relaxed mb-12">
-          New Braunfels Barber was founded on the belief that a haircut is more
-          than just a routine—it's a ritual. We combine traditional techniques
-          with modern style to create a look that is uniquely yours. Situated in
-          the heart of Texas, we honor the heritage of our community while
-          providing a space for men to relax and recharge.
+          Strike Fast Snake Removal was founded on the principle that wildlife encounters don't have to be stressful. We combine rapid response times with deep knowledge of local reptile behavior to keep your family and property safe. Based in Central Texas, we respect the local ecosystem while delivering peace of mind for residents and businesses alike.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">

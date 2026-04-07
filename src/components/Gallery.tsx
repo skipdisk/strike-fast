@@ -7,32 +7,32 @@ export function Gallery() {
 
   const items = [
     {
-      id: "cut",
-      title: "Cut",
+      id: "inspect",
+      title: "Inspect",
       span: "col-span-2 row-span-2",
       delay: "",
-      src: "https://images.unsplash.com/photo-1619233543640-af09c173763b?q=80&w=800&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1650044215771-ecfea2760b8c?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=800&auto=format&fit=crop",
     },
     {
-      id: "shave",
-      title: "Shave",
+      id: "capture",
+      title: "Capture",
       span: "",
       delay: "delay-75",
-      src: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1697157203137-58117b486ec7?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=800&auto=format&fit=crop",
     },
     {
-      id: "style",
-      title: "Style",
+      id: "relocate",
+      title: "Relocate",
       span: "",
       delay: "delay-100",
-      src: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=800&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop",
     },
     {
-      id: "shop",
-      title: "Shop",
+      id: "prevent",
+      title: "Prevent",
       span: "col-span-2",
       delay: "delay-150",
-      src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1761558794306-466448dab4bc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=800&auto=format&fit=crop",
     },
   ];
 
@@ -42,12 +42,12 @@ export function Gallery() {
       className="py-24 px-6 md:px-12 2xl:px-24 text-white relative"
     >
       <div className="flex justify-between items-center mb-12">
-        <h2 className="text-4xl 2xl:text-6xl font-serif">Process & Result</h2>
+        <h2 className="text-4xl 2xl:text-6xl font-serif">Our Process</h2>
         <a
           href="#"
           className="hidden md:inline-block border-b border-white pb-1 hover:opacity-70 transition-opacity 2xl:text-xl"
         >
-          View Instagram
+          View Gallery
         </a>
       </div>
 

@@ -20,20 +20,22 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-5xl md:text-8xl 2xl:text-[12rem] font-extrabold tracking-tighter uppercase leading-[0.9]"
           >
-            Fresh & <br />
+            Strike <br />
             <span className="font-extralight italic font-serif lowercase">
-              Faded
+              Fast
             </span>
           </motion.h1>
 
           <div className="mt-8 text-neutral-400 max-w-sm text-sm md:text-base uppercase tracking-widest border-l border-white/20 pl-4 py-2 min-h-[80px]">
-            <SyncedTypingText
-              lines={[
-                "Your chair is waiting.",
-                "Your transformation begins now.",
-              ]}
-              delay={1.0}
-            />
+            <p className="font-light">
+              <strong className="font-bold text-white uppercase tracking-wider block mb-2">
+                Snake Removal
+              </strong>
+              <SyncedTypingText
+                lines={["Safe & Humane.", "Rapid Response."]}
+                delay={1.0}
+              />{" "}
+            </p>
           </div>
 
           <motion.div
@@ -43,11 +45,10 @@ export function Hero() {
             className="mt-12"
           >
             <a
-              href="https://getsquire.com/discover/barbershop/new-braunfels-barber-new-braunfels?hl=en-US&gei=YjqNadTtHZO6qtsPxPLn-QQ&rwg_token=AFd1xnGN7cCNBQ-sYKDYH8E5m-Nvfwa_rJCk5fqCxe9lceiyn7dPslQwXzJPFBHEOeStWd-jXoj-_ThS0_IUpRdc_ngIzBpcaQ%3D%3D"
-              target="_blank"
+              href="tel:8303698777"
               className="inline-block bg-white text-black px-8 py-4 font-bold tracking-widest uppercase hover:bg-neutral-200 transition-colors"
             >
-              Book Now
+              Call Now
             </a>
           </motion.div>
         </div>
@@ -61,9 +62,9 @@ export function Hero() {
 
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/4 h-[0.5px] bg-white/20 hidden md:block"></div>
       <div className="w-full text-xs text-center text-neutral-500 uppercase tracking-widest z-30 pointer-events-none relative mt-24 pb-8 md:pb-0 md:mt-0 md:absolute md:bottom-12 md:left-0">
-        New Braunfels
+        Serving New Braunfels, Canyon Lake,
         <br />
-        Est. 2024
+        Seguin, & San Marcos
       </div>
     </section>
   );
